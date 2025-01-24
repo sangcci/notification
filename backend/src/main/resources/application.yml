@@ -1,0 +1,51 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;MODE=MySQL;
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+  sql:
+    init:
+      mode: never
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        order-inserts: true
+        order-updates: true
+        jdbc:
+          batch_size: 30 # Number of statements in a batch
+        id:
+          new_generator_mappings: true # Enable batching for IDENTITY strategy (Hibernate 5.4+)
+        batch_versioned_data: true # Allow batching for versioned entities
+        format_sql: true
+        show_sql: true
+
+  data:
+    redis:
+      port: 6379
+      host: localhost
+
+fcm:
+  project-id: allreva-f862c
+
+logging:
+  level:
+    org:
+      hibernate:
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE # Log bind parameter values
+      springframework:
+        jdbc:
+          core: DEBUG
+          datasource: DEBUG
+          core.JdbcTemplate: TRACE
+          core.StatementCreatorUtils: TRACE

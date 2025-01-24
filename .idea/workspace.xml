@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b818959-2eab-49aa-a594-be81fef7e70c" name="Changes" comment="setting: backend, frontend 분리" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sangcci&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1737296865" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1737296864" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1737689788" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1737689787" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/frontend" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sangcci/spring-notification-test.git&quot;,
+    &quot;accountId&quot;: &quot;d4610e2d-3052-4b0c-97ec-295730acdbfc&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Security Analysis" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2rqpqQybZAMMhbGpx5og65UCdmh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.Build notification.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NotificationRepositoryTest.notification_bulk_insert_test.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NotificationServiceTest.send_notification.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.notification [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;Spring Boot.NotificationApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/projects/notification/backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\notification\src\main\resources\firebase" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sangcci.notification.common.config" />
+      <recent name="sangcci.notification.notification.controller" />
+      <recent name="sangcci.notification.external.fcm.controller" />
+      <recent name="sangcci.notification.notification.domain" />
+      <recent name="sangcci.notification.notification.infra" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.NotificationServiceTest.send_notification">
+    <configuration name="NotificationRepositoryTest.notification_bulk_insert_test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;sangcci.notification.notification.infra.NotificationRepositoryTest.notification_bulk_insert_test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="NotificationServiceTest.send_notification" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;sangcci.notification.notification.service.NotificationServiceTest.send_notification&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="notification [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notification.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="sangcci.notification.NotificationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.NotificationServiceTest.send_notification" />
+        <item itemvalue="Gradle.NotificationRepositoryTest.notification_bulk_insert_test" />
+        <item itemvalue="Gradle.notification [dependencies]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b818959-2eab-49aa-a594-be81fef7e70c" name="Changes" comment="" />
+      <created>1737296653209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737296653209</updated>
+      <workItem from="1737296654495" duration="9872000" />
+      <workItem from="1737350284461" duration="11834000" />
+      <workItem from="1737364893985" duration="840000" />
+      <workItem from="1737377305112" duration="11092000" />
+      <workItem from="1737520494704" duration="7068000" />
+      <workItem from="1737614785744" duration="4963000" />
+      <workItem from="1737623671192" duration="5280000" />
+      <workItem from="1737645485898" duration="652000" />
+      <workItem from="1737646156718" duration="7295000" />
+      <workItem from="1737689397176" duration="728000" />
+      <workItem from="1737690380773" duration="31000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: FCM 알림 기능 구현">
+      <option name="closed" value="true" />
+      <created>1737384462712</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737384462712</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix: return값 null 제거 및 ResponseEntity 처리">
+      <option name="closed" value="true" />
+      <created>1737384811935</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737384811935</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix: KEY_PATH 수정">
+      <option name="closed" value="true" />
+      <created>1737386897738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737386897738</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: swagger 추가">
+      <option name="closed" value="true" />
+      <created>1737387261855</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737387261855</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: board 기능 삭제">
+      <option name="closed" value="true" />
+      <created>1737620030097</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737620030097</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix: cors 및 redis 설정">
+      <option name="closed" value="true" />
+      <created>1737620058586</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737620058586</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor: deviceTokenRequest 위치 옮김">
+      <option name="closed" value="true" />
+      <created>1737620158323</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737620158323</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: fcm api 명세에 맞게 수정">
+      <option name="closed" value="true" />
+      <created>1737620234698</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737620234698</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: 알람 테스트용 send api 구현">
+      <option name="closed" value="true" />
+      <created>1737620266504</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737620266504</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix: 테스트용 알림 보내기 API swagger 추가">
+      <option name="closed" value="true" />
+      <created>1737620348204</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737620348204</updated>
+    </task>
+    <task id="LOCAL-00011" summary="refactor: 테스트 API 분리 및 Event 아키텍처 적용">
+      <option name="closed" value="true" />
+      <created>1737630260130</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737630260130</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: notification bulk insert 추가">
+      <option name="closed" value="true" />
+      <created>1737653241597</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737653241597</updated>
+    </task>
+    <task id="LOCAL-00013" summary="test: 테스트 코드 추가">
+      <option name="closed" value="true" />
+      <created>1737654457008</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1737654457008</updated>
+    </task>
+    <task id="LOCAL-00014" summary="setting: backend, frontend 분리">
+      <option name="closed" value="true" />
+      <created>1737689618779</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1737689618780</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: FCM 알림 기능 구현" />
+    <MESSAGE value="fix: return값 null 제거 및 ResponseEntity 처리" />
+    <MESSAGE value="fix: KEY_PATH 수정" />
+    <MESSAGE value="feat: swagger 추가" />
+    <MESSAGE value="fix: board 기능 삭제" />
+    <MESSAGE value="fix: cors 및 redis 설정" />
+    <MESSAGE value="refactor: deviceTokenRequest 위치 옮김" />
+    <MESSAGE value="fix: fcm api 명세에 맞게 수정" />
+    <MESSAGE value="feat: 알람 테스트용 send api 구현" />
+    <MESSAGE value="fix: 테스트용 알림 보내기 API swagger 추가" />
+    <MESSAGE value="refactor: 테스트 API 분리 및 Event 아키텍처 적용" />
+    <MESSAGE value="fix: notification bulk insert 추가" />
+    <MESSAGE value="test: 테스트 코드 추가" />
+    <MESSAGE value="setting: backend, frontend 분리" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting: backend, frontend 분리" />
+  </component>
+</project>
