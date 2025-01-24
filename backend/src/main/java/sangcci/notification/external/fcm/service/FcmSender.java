@@ -7,12 +7,12 @@ import org.springframework.stereotype.Component;
 import sangcci.notification.external.fcm.dto.FcmMessage;
 import sangcci.notification.external.fcm.infra.FcmClient;
 import sangcci.notification.external.fcm.util.FcmTokenUtils;
-import sangcci.notification.notification.dto.NotificationMessage;
+import sangcci.notification.notification.infra.NotificationSender;
 
 @Slf4j
 @Component
 @RequiredArgsConstructor
-public class FcmSender {
+public class FcmSender implements NotificationSender {
 
     private final FcmClient fcmClient;
 
@@ -20,12 +20,13 @@ public class FcmSender {
     private String projectId;
 
     public void sendMessage(
-            final String recipientFcmToken,
-            final NotificationMessage notificationMessage
+            final String deviceToken,
+            final String title,
+            final String message
     ) {
         String accessToken = FcmTokenUtils.getAccessToken();
         String authorizationHeader = "Bearer " + accessToken;
-        FcmMessage fcmMessage = FcmMessage.from(recipientFcmToken, false, notificationMessage);
+        FcmMessage fcmMessage = FcmMessage.from(deviceToken, false, title, message);
         fcmClient.sendMessage(
                 authorizationHeader,
                 fcmMessage,

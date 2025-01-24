@@ -4,12 +4,13 @@ import java.util.List;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import sangcci.notification.notification.domain.Notification;
-import sangcci.notification.notification.domain.NotificationEvent;
-import sangcci.notification.notification.dto.NotificationMessage;
+import sangcci.notification.common.event.NotificationEvent;
+import sangcci.notification.common.event.NotificationMessage;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public final class NotificationFixture {
 
+    // entity
     public static Notification createNotification(Long recipientId) {
         return Notification.builder()
                 .title("test title")
@@ -24,10 +25,8 @@ public final class NotificationFixture {
                 .toList();
     }
 
+    // event
     public static NotificationEvent createNotificationEvent(List<Long> recipientIds) {
-        return NotificationEvent.builder()
-                .recipientIds(recipientIds)
-                .notificationMessage(NotificationMessage.NEW_NOTIFICATION)
-                .build();
+        return NotificationMessage.NEW_NOTIFICATION.toEvent(recipientIds);
     }
 }

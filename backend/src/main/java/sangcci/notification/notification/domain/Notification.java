@@ -38,6 +38,14 @@ public class Notification {
         this.isRead = false;
     }
 
+    public static Notification from(String title, String message, Long recipientId) {
+        return Notification.builder()
+                .title(title)
+                .message(message)
+                .recipientId(recipientId)
+                .build();
+    }
+
     public void validateMine(Long recipientId) {
         if (!this.recipientId.equals(recipientId)) {
             throw new IllegalArgumentException("Not your notification");

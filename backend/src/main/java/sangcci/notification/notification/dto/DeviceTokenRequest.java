@@ -1,4 +1,4 @@
-package sangcci.notification.external.fcm.dto;
+package sangcci.notification.notification.dto;
 
 import lombok.Builder;
 

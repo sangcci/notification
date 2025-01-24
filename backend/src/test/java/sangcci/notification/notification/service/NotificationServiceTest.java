@@ -11,6 +11,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import sangcci.notification.notification.fixture.NotificationFixture;
+import sangcci.notification.notification.infra.DeviceTokenRepository;
 import sangcci.notification.notification.infra.NotificationSender;
 
 @ExtendWith(MockitoExtension.class)
@@ -19,9 +20,11 @@ class NotificationServiceTest {
     @InjectMocks
     private NotificationService notificationService;
     @Mock
-    private NotificationRepository notificationRepository;
+    private DeviceTokenRepository deviceTokenRepository;
     @Mock
     private NotificationSender notificationSender;
+    @Mock
+    private NotificationRepository notificationRepository;
 
     @Test
     void send_notification() {
@@ -30,7 +33,8 @@ class NotificationServiceTest {
 
         notificationService.sendMessage(notificationEvent);
 
-        verify(notificationSender, times(1)).sendMessage(any(), any());
+        verify(deviceTokenRepository, times(1)).findTokensByMemberIds(recipientIds);
+        verify(notificationSender, times(1)).sendMessage(any(), any(), any());
         verify(notificationRepository, times(1)).saveAll(any());
     }
 }

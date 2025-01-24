@@ -2,7 +2,6 @@ package sangcci.notification.external.fcm.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;
-import sangcci.notification.notification.dto.NotificationMessage;
 
 @Builder
 public record FcmMessage(
@@ -28,14 +27,15 @@ public record FcmMessage(
     public static FcmMessage from(
             final String token,
             final boolean validateOnly,
-            final NotificationMessage notificationMessage
+            final String title,
+            final String message
     ) {
         return FcmMessage.builder()
                 .validateOnly(validateOnly)
                 .message(Message.builder()
                         .notification(Notification.builder()
-                                .title(notificationMessage.getTitle())
-                                .body(notificationMessage.getMessage())
+                                .title(title)
+                                .body(message)
                                 .build())
                         .token(token)
                         .build())

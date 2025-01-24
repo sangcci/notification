@@ -1,4 +1,4 @@
-package sangcci.notification.external.fcm.infra;
+package sangcci.notification.notification.infra;
 
 import java.util.List;
 import lombok.RequiredArgsConstructor;
@@ -28,6 +28,7 @@ public class DeviceTokenRepository {
         redisTemplate.delete(redisKey);
     }
 
+    // 추후에 알림 서비스 별로 키를 다르게 사용할 수 있도록 확장
     private String buildRedisKey(final Long memberId) {
         return String.format("fcmDeviceToken:%d", memberId);
     }

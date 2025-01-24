@@ -1,5 +1,6 @@
-package sangcci.notification.notification.dto;
+package sangcci.notification.common.event;
 
+import java.util.List;
 import lombok.Getter;
 
 @Getter
@@ -13,5 +14,13 @@ public enum NotificationMessage {
     NotificationMessage(String title, String message) {
         this.title = title;
         this.message = message;
+    }
+
+    public NotificationEvent toEvent(List<Long> recipientIds) {
+        return NotificationEvent.builder()
+                .title(title)
+                .message(message)
+                .recipientIds(recipientIds)
+                .build();
     }
 }
