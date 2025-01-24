@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const sendDeviceTokenToServer = async (memberId, deviceToken) => {
     try {
-      const response = await axios.post("http://localhost:8080/api/v1/firebase/device-token", {
+      const response = await axios.post("http://localhost:8080/api/v1/notifications/device-token", {
         memberId,
         deviceToken,
       });
