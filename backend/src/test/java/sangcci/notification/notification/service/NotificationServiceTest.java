@@ -12,7 +12,6 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import sangcci.notification.notification.fixture.NotificationFixture;
 import sangcci.notification.notification.infra.DeviceTokenRepository;
-import sangcci.notification.notification.infra.NotificationSender;
 
 @ExtendWith(MockitoExtension.class)
 class NotificationServiceTest {

@@ -12,7 +12,6 @@ import sangcci.notification.notification.domain.Notification;
 import sangcci.notification.notification.dto.DeviceTokenRequest;
 import sangcci.notification.notification.dto.NotificationIdRequest;
 import sangcci.notification.notification.infra.DeviceTokenRepository;
-import sangcci.notification.notification.infra.NotificationSender;
 
 @Slf4j
 @Service

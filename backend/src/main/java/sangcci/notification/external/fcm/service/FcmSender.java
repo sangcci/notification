@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 import sangcci.notification.external.fcm.dto.FcmMessage;
 import sangcci.notification.external.fcm.infra.FcmClient;
 import sangcci.notification.external.fcm.util.FcmTokenUtils;
-import sangcci.notification.notification.infra.NotificationSender;
+import sangcci.notification.notification.service.NotificationSender;
 
 @Slf4j
 @Component

@@ -1,4 +1,4 @@
-package sangcci.notification.notification.infra;
+package sangcci.notification.notification.service;
 
 public interface NotificationSender {
 
