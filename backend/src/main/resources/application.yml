@@ -17,13 +17,6 @@ spring:
       ddl-auto: create
     properties:
       hibernate:
-        order-inserts: true
-        order-updates: true
-        jdbc:
-          batch_size: 30 # Number of statements in a batch
-        id:
-          new_generator_mappings: true # Enable batching for IDENTITY strategy (Hibernate 5.4+)
-        batch_versioned_data: true # Allow batching for versioned entities
         format_sql: true
         show_sql: true
 
